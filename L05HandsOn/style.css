@@ -1,0 +1,30 @@
+.link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 24px;
+    background-color: palevioletred;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+.image-grid-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .image-grid {
+    width: 1300px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+  }
+  
+  .image-grid-item {
+    display: flex;
+    width: 300px;
+    height: 300px;
+    object-fit: scale-down;
+    margin: 1px 1px 10px 1px;
+    
+  }

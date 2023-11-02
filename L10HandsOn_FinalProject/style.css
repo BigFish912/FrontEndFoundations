@@ -1,0 +1,59 @@
+body {
+  background-image: url("/images/grey-abstract-background_427757-34.jpg");
+  background-size: cover;
+}
+.header {
+  text-align: center;
+}
+
+#jobTitle {
+  font-size: 48;
+  font-weight: 400;
+}
+
+#pic {
+  width: 300px;
+  height: auto;
+  padding-left: 1em;
+}
+
+.link {
+  width: 300px;
+  height: auto;
+}
+
+.fa-brands {
+  padding: 20px;
+  font-size: 50px;
+  width: 100px;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 50%;
+}
+.fa-facebook {
+  color: #4267b2;
+}
+.fa-youtube {
+  color: #ff0000;
+}
+.fa-instagram {
+  color: #c13584;
+}
+.fa-tiktok {
+  color: black;
+}
+.fa-chrome {
+  color: #0f9d58;
+}
+ul {
+  font-weight: bold;
+  font-size: large;
+}
+li {
+  font-weight: 300;
+  font-size: medium;
+}
+.myButton{
+    display: flex;
+    justify-content: center;
+}
