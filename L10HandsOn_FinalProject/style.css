@@ -57,3 +57,16 @@ li {
     display: flex;
     justify-content: center;
 }
+#repoList{
+  background-color: gainsboro;
+  padding: 1em;
+  margin: 1em;
+}
+#repoList:empty{
+  display: none;
+}
+.footer{
+  background-color: aqua;
+  position: absolute;
+  left: 0; right: 0; bottom: 0;
+}

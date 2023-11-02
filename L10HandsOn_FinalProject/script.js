@@ -7,10 +7,8 @@ $(document).ready(function () {
       $(this).css("transform", "");
     }
   );
-});
 
-$(document).ready(function () {
-    $(".link").hover(
+  $(".link").hover(
       function () {
         $(this).css("transform", "scale(1.3)");
       },
@@ -18,7 +16,9 @@ $(document).ready(function () {
         $(this).css("transform", "");
       }
     );
-  });
+    
+
+});
 
 function loadRepo() {
     const  xhttp = new XMLHttpRequest();
@@ -30,8 +30,8 @@ function loadRepo() {
   function showRepositories() {
     var repos = JSON.parse(this.responseText);
     console.log(repos);
-    const repoList = `<ul>${repos
-      .map(r => '<li>' + r.name + '</li>')
-      .join('')}</ul>`;
-    document.getElementById('repo').innerHTML = repoList;
+    const repoList = `<p>${repos
+      .map(r => r.name + '<br>')
+      .join('')}</p>`;
+    document.getElementById('repoList').innerHTML = repoList;
   }
